@@ -1,5 +1,8 @@
 # Práctica 1 Laboratorio de Ingeniería de Software [2016-2]
 
+Oscar Eduardo Villa Chio
+311168969
+
 Cuestionario:
 
 1.- Dos horas y treinta minutos.
