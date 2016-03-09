@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="Usuario.java" table="usuario">
+      <id name="id" type="java.lang.Integer" column="id">
+          <generator class="identity"/>
+      </id>
+      
+      <property name="nombre" type="string" column="nombre"/>
+      <property name="correo" type="string" column="correo"/>
+      <property name="password" type="string" column="password"/>
+      <property name="fecha_nac" type="string" column="fecha_nac"/>
+    
+  </class>
+</hibernate-mapping>
